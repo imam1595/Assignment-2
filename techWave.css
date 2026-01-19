@@ -3,3 +3,215 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* shared part */
+
+body{
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-grid{
+    display: grid;
+}
+
+.text-color{
+    color: #FFFFFF;
+}
+
+.text-green{
+    color: #00FF88;
+}
+
+.btn{
+    /* width: 135px;
+    height: 35px; */
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10000px;
+    padding: 16px 20px;
+    background: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
+    font-size: 1.2rem;
+    cursor: pointer;
+
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(2);
+}
+
+
+/* header */
+/* nav */
+
+#navber-container{
+    width: 100%;
+}
+
+#navber{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#gradient-color{
+    background: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
+    background-clip: text;
+    color: transparent;
+}
+
+#nav-text{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* #navber #logo{
+    width: 220px;
+    height: 32px;
+} */
+
+#nav-manu{
+    gap: 30px;
+}
+
+#nav-manu>li{
+    list-style: none;
+}
+
+#nav-manu a{
+    text-decoration: none;
+    
+}
+
+/* button */
+.btn-container{
+    justify-content: center;
+    align-items: center;
+}
+#arrow{
+    width: 18px;
+    height: 18px;
+}
+
+/* banner part */
+.banner-container{
+    border: 1px solid red;
+    height: 700px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(./assets/hero-bg.png);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle-pic{
+    width: 350px;
+    height: 350px;
+    border: 1px solid wheat;
+    background-image: url(./assets/hero-circle.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-pic{
+    width: 200px;
+    height: 200px;
+    border: 1px solid aqua;
+    /* background-image: url(./assets/microphone.png); */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-btn-container{
+    /* border: 1px solid yellow; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bannre-info{
+    margin-top: 2rem;
+    border: 1px solid blue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bannre-info>h1{
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+.bannre-info>p{
+    font-size: 1rem;
+}
+
+.banner-button1{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 10000px;
+    cursor: pointer;
+    background:linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.banner-button1:hover{
+    transform: scale(2);
+    background: transparent;
+    border: 1px solid #00FF88;
+}
+
+.banner-button2{
+    width: 150px;
+    height: 45px;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.banner-button2:hover{
+    transform: scale(2);
+    background: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
+}
+
+.banner-new{
+    width: 75px;
+    height: 35px;
+    background-color: #00FF88;
+    color: black;
+    font-weight: bolder;
+    border-radius: 100000px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 880px;
+}
