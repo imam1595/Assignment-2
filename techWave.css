@@ -463,6 +463,8 @@ body{
     background-size: cover;
     text-align: center;
     padding: 120px 200px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-all-socials{
@@ -523,7 +525,7 @@ body{
     }
 
     .banner-container{
-        width: 560px;
+        width: 100%;
         height: 480px;
 
     }
@@ -618,8 +620,11 @@ body{
 
     /* footer */
     .footer{
-        width: 560px;
-        height: 480px;
+        width: 100%;
+        /* height: 480px; */
+        padding: 20px 0px;
+        background-size: cover;
+        background-position: center;
     }
 
     .footer-all-socials{
